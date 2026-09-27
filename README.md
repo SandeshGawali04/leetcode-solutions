@@ -1,2 +1,2 @@
-# leetcode-solutions
-Add the solutions of the leetcode i have solved 
+# LeetCode-solutions
+Adding the solutions of the LeetCode I have solved 
