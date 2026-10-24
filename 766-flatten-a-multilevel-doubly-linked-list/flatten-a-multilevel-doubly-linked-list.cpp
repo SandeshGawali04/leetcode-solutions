@@ -12,10 +12,9 @@ public:
 class Solution {
 public:
     Node* flatten(Node* head) {
+        if(head==NULL) return head;
         Node* curr=head;
         while(curr!=NULL){
-            if(head==NULL) return head;
-
             if(curr->child!=NULL){
                 Node* next=curr->next;
                 curr->next=flatten(curr->child);
